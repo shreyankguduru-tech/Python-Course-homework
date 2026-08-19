@@ -1,0 +1,6 @@
+print ("My daily routine!")
+print ("I wake up at 6:30 AM")
+print ("I go to school at 8:00 AM")
+print ("I play Games with my friends and go outside for 2 - 3 hours")
+print ("later I study for 2 hours and 30 minutes at around 6 pm")
+print ("MY total study hours in a week:", 2.3 * 7)
