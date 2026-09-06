@@ -1,6 +1,6 @@
 character = input ("Enter any character in the alphabet")
 
-if ('a' <= character) or ('z' <= character):
+if ('a' <= character)  :
     print ("is alphabet")
 else:
     print ("isnt alphabet")
