@@ -1,10 +1,15 @@
-rows = int(input("HOW MANY ROWS? "))
+rows = int(input("How many rows(*) do you want?"))
+
+for i in range (rows):
+    for j in range (i + 1):
+        print("*",end=" ")
+    print()
 
 
-for i in range(1, rows + 1):
-    print("*" * i)
 
 print()
 
-for i in range(rows, 0, -1):
-    print("*" * i)
+for i in range(rows,0, -1):
+    for j in range(i - 0):
+        print("*",end=" ")
+    print()
